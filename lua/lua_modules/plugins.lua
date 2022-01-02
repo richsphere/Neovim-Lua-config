@@ -47,8 +47,23 @@ return packer.startup(function(use)
     use "numToStr/Comment.nvim" -- Easily comment stuff
     use "kyazdani42/nvim-web-devicons"
     use "kyazdani42/nvim-tree.lua"
+    use "akinsho/toggleterm.nvim"
+
+    -- Color Schemes
     use "EdenEast/nightfox.nvim"
     use 'folke/tokyonight.nvim'
+
+    -- LSP
+    use "neovim/nvim-lspconfig"
+
+    -- Telescope
+    use "nvim-telescope/telescope.nvim"
+
+    -- Treesitter
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate'
+    }
 
     use {
         'nvim-lualine/lualine.nvim',
