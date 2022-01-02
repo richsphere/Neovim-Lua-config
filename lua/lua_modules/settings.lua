@@ -22,6 +22,7 @@ o.wrap = false
 wo.nu = true
 wo.relativenumber = true
 wo.cursorline = true
+wo.colorcolumn = '79'
 
 
 -- buffer-local options

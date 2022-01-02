@@ -1,4 +1,6 @@
 require('lua_modules.settings')
+require('lua_modules.keymaps')
 require('lua_modules.plugins')
 require('lua_modules.colorscheme')
 require('lualine').setup()
+require('lua_modules.nvim-tree')
